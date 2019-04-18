@@ -12,7 +12,7 @@
 		"autoAudits": false,
 		"nodeModules": true
 	},
-	"compileType": "plugin",
+	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
 	"appid": "wxdfcd3e14e5a6fb1d",
 	"projectname": "seafood",
