@@ -1,0 +1,16 @@
+com\weixin\controllers\GoodTypeController.class
+com\weixin\serviceImpl\ItemServiceImpl.class
+com\weixin\result\RestResultListData.class
+com\weixin\dao\GoodTypeDao.class
+com\weixin\controllers\ItemController.class
+com\weixin\dao\ItemDao.class
+com\weixin\result\RestResultID.class
+com\weixin\result\RestResultMsg.class
+com\weixin\controllers\MainController.class
+com\weixin\beans\GoodType.class
+com\weixin\Application.class
+com\weixin\beans\Item.class
+com\weixin\result\RestResultData.class
+com\weixin\service\ItemService.class
+com\weixin\service\GoodTypeService.class
+com\weixin\serviceImpl\GoodTypeServiceImpl.class
