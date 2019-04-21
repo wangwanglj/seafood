@@ -8,7 +8,8 @@ Page({
       shopLogo:"http://www.wangwang-miaomiao.xyz/seafood/20190417/d92f118b8714ed46.jpg",
       loadingStatus: false,
       shopDelivery: [],
-      shopPrompt: []
+      shopPrompt: [],
+      categories: []
   },
 
   /**
