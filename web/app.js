@@ -18,5 +18,18 @@ App({
         userInfo: null,
         version: "1.0.0",
         shareProfile: '   一流的服务，做超新鲜的' // 首页转发的时候术语
+    },
+
+    onLaunch:function(){
+      //  获取商城类型
+      wx.request({
+        url: 'http://127.0.0.1/goodtype/getall',
+        success:function(res){
+          if(res.data.code == 1){
+            console.log("goodtype:",res.data);
+            goodtypes = res.data.data;
+          }
+        }
+      })
     }
 })
