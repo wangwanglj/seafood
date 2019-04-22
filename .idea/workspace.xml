@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f28ff5b8-6748-492c-b8b6-37db38ea0fdc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/server/.idea/server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/weixin/result/RestResultData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/weixin/result/RestResultID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/weixin/result/RestResultListData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/weixin/result/RestResultMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seafood.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/weixin/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/weixin/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/com/weixin/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/com/weixin/controllers/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pages/classification/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/classification/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pages/classification/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/classification/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pages/start/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/start/start.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -74,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/pages/classification/index.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+            <state relative-caret-position="253">
+              <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#view#0;n#view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#view#1;n#view#0;n#scroll-view#1;n#view#1;n#view#0;n#!!top" expanded="true" />
@@ -138,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="85" />
     <option name="y" value="65" />
     <option name="width" value="1321" />
@@ -239,16 +226,15 @@
       <workItem from="1555726301439" duration="505000" />
       <workItem from="1555726825999" duration="754000" />
       <workItem from="1555727807346" duration="2333000" />
-      <workItem from="1555730306888" duration="649000" />
+      <workItem from="1555730306888" duration="1251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28417000" />
+    <option name="totallyTimeSpent" value="29019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="65" width="1321" height="977" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27990618" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -406,8 +392,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/classification/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        <state relative-caret-position="253">
+          <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
           <folding>
             <element signature="n#style#0;n#view#0;n#view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#view#1;n#view#0;n#scroll-view#1;n#view#1;n#view#0;n#!!top" expanded="true" />

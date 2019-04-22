@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a59e0124-4cda-44aa-8cb2-18985fd5d09d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/result/RestResultData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/result/RestResultID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/result/RestResultListData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weixin/result/RestResultMsg.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../project/SpringBootDemo/src/main/java/com/makotojava/learn/odot/config/AbstractApplicationConfiguration.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../project/SpringBootDemo/src/main/java/com/makotojava/learn/odot/config/DatabaseConfiguration.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../project/SpringBootDemo/src/main/java/com/makotojava/learn/odot/dao/CategoryDao.java" afterDir="false" />
@@ -19,14 +14,8 @@
       <change afterPath="$PROJECT_DIR$/../../../project/SpringBootDemo/src/main/java/com/makotojava/learn/odot/service/CategoryService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../project/SpringBootDemo/src/main/java/com/makotojava/learn/odot/service/ItemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seafood.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weixin/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weixin/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/weixin/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weixin/controllers/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/pages/classification/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/pages/classification/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/pages/classification/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/pages/classification/index.wxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,8 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="seafoodServer" />
@@ -48,31 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/weixin/controllers/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/weixin/result/RestResultID.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weixin/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../project/carmanager/Website/src/main/java/activiti/controllers/AccountRestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="17" />
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,9 +82,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="151" />
-    <option name="y" value="155" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="233" />
+    <option name="y" value="137" />
     <option name="width" value="1417" />
     <option name="height" value="865" />
   </component>
@@ -127,18 +94,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="ProjectPane">
+        <subPane>
           <expand>
             <path>
-              <item name="seafoodServer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="seafoodServer" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="seafoodServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="seafoodServer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="seafoodServer" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="seafoodServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seafoodServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seafoodServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seafoodServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,6 +148,22 @@
               <item name="SpringBootDemo" type="616d4139:PackageViewModuleNode" />
               <item name="com.makotojava.learn.springboot" type="1f31426a:PackageElementNode" />
               <item name="web" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="seafoodServer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="seafoodServer" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="seafoodServer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="seafoodServer" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -217,7 +220,7 @@
     </option>
     <option name="contentProportion" value="0.06277056" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.Application (2)">
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringBootDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.makotojava.learn.springboot.App" />
@@ -228,6 +231,19 @@
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-basewebapp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="activiti.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weixin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.weixin.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -249,9 +265,11 @@
       <item itemvalue="Spring Boot.Application (1)" />
       <item itemvalue="Spring Boot.App" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (2)" />
         <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
@@ -270,12 +288,13 @@
       <workItem from="1555129674075" duration="1936000" />
       <workItem from="1555313025359" duration="12442000" />
       <workItem from="1555667595543" duration="5494000" />
-      <workItem from="1555727379968" duration="2986000" />
+      <workItem from="1555727379968" duration="3853000" />
+      <workItem from="1555917631156" duration="932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28489000" />
+    <option name="totallyTimeSpent" value="30288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -287,10 +306,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="151" y="155" width="1417" height="865" extended-state="1" />
+    <frame x="306" y="121" width="1417" height="865" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972477" visible="true" weight="0.29255712" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972477" visible="true" weight="0.29697862" />
       <window_info id="Structure" order="1" sideWeight="0.5027523" side_tool="true" weight="0.2837141" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -298,7 +317,6 @@
       <window_info id="Favorites" order="5" sideWeight="0.50091743" side_tool="true" weight="0.30160773" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296433" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29175705" />
@@ -314,7 +332,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.1764706" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -325,6 +343,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,16 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixin/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/2.1.4.RELEASE/thymeleaf-2.1.4.RELEASE.jar!/org/thymeleaf/TemplateRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="989">
@@ -617,8 +626,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weixin/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -636,6 +645,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weixin/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
