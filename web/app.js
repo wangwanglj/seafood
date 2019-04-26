@@ -23,7 +23,7 @@ App({
     onLaunch:function(){
       //  获取商城类型
       wx.request({
-        url: 'http://127.0.0.1/goodtype/getall',
+        url: 'http://www.wangwang-miaomiao.xyz/goodtype/getall',
         success:function(res){
           if(res.data.code == 1){
             console.log("goodtype:",res.data);
