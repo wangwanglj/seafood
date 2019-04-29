@@ -11,9 +11,16 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class MainController {
 
     @RequestMapping("/")
-    // @ResponseBody
+    @ResponseBody
     public String entry() {
-        return "{login_page:1}";
+        return "Hello";
+    }
+
+
+    @RequestMapping("/.well-known/acme-challenge/**")
+    @ResponseBody
+    public String ssl() {
+        return "pu50ZOCHLdVAzFwXVgaIdHGClycXr_q0QO0IO5X3NyY.xpbgK9QnHkHLRpGBZiYsa-hXaayqrPxfxPVaFPAPocA";
     }
 
     // 本页面 为系统默认进入的页面   不设登录拦截
