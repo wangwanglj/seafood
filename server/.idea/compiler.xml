@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="com.lj" />
         <module name="server" />
+        <module name="spring-boot-basewebapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
