@@ -23,7 +23,7 @@ public class ItemController {
     @RequestMapping(value = "getall")
     public RestResultData getAll(){
         try {
-            return  new RestResultData(1,"",itemService.getAll());
+            return  new RestResultData(0,"",itemService.getAll());
         }catch (Exception e){
             logger.error("",e);
             return new RestResultData(1, "数据库查询失败"+e, new ArrayList<Item>());
