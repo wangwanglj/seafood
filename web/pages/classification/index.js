@@ -5,72 +5,89 @@ Page({
    * 页面的初始数据
    */
   data: {
-      shopLogo:"http://www.wangwang-miaomiao.xyz/seafood/20190417/d92f118b8714ed46.jpg",
-      loadingStatus: false,
-      shopDelivery: [],
-      shopPrompt: [],
-      categories: []
+    shopLogo: "https://www.wangwang-miaomiao.xyz/seafood/20190417/d92f118b8714ed46.jpg",
+    goodtypes: [], //商品类型列表
+    goods: [], //商品列表
+    chooseGoodType: null, //选择的商品类型
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-      this.setData({
-          background_color: app.globalData.globalBGColor,
-          bgRed: app.globalData.bgRed,
-          bgGreen: app.globalData.bgGreen,
-          bgBlue: app.globalData.bgBlue
+  onLoad: function(options) {
+    var that = this;
+    this.setData({
+      chooseGoodType: app.globalData.initChooseGoodType,
+      goodtypes: app.globalData.goodtypes,
+      goods: app.globalData.goods,
+      background_color: app.globalData.globalBGColor,
+      bgRed: app.globalData.bgRed,
+      bgGreen: app.globalData.bgGreen,
+      bgBlue: app.globalData.bgBlue
+    })
+  },
+
+  /**
+   * 现在物品类型
+   */
+  chooseItemType: function(data) {
+    var that = this;
+    var id = data.target.dataset.id;
+    if (id === that.data.chooseGoodType) {
+
+    } else {
+      that.setData({
+        chooseGoodType: id,
       })
-    
+    }
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
-    
+  onReady: function() {
+
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
-    
+  onShow: function() {
+
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
-  onHide: function () {
-    
+  onHide: function() {
+
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload: function () {
-    
+  onUnload: function() {
+
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function () {
-    
+  onPullDownRefresh: function() {
+
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function () {
-    
+  onReachBottom: function() {
+
   },
 
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
-    
+  onShareAppMessage: function() {
+
   }
 })

@@ -13,18 +13,17 @@
       </view>
     </view>
     <view class="line"></view>
-    <wxc-notice scroll="{{true}}" close="{{true}}" bg-color="#ff9300" bg-rgba="rgba(255, 147, 0, 0)" show-icon="{{true}}" notice="{{shopPrompt}}"></wxc-notice>
   </view>
 
     <view class="content-container">
 
         <scroll-view class="classify-container" scroll-y="true" scroll-with-animation="true">
-            <view class="classify {{classifyViewed==classify.id?'active':''}}" wx:for="{{categories}}" wx:for-item="classify" wx:key="id" data-id="{{classify.id}}" bindtap="chooseItemType">
-                <view class="name {{classifyViewed==classify.id?'active':''}}">{{classify.name}}</view>
+            <view class="classify {{chooseGoodType==goodtype.id?'active':''}}" wx:for="{{goodtypes}}" wx:for-item="goodtype" wx:key="id" data-id="{{goodtype.id}}" bindtap="chooseItemType">
+                <view class="name {{chooseGoodType==goodtype.id?'active':''}}">{{goodtype.name}}</view>
             </view>
         </scroll-view>
 
-        <scroll-view class="goods-container" scroll-y="true" scroll-top="{{scrolltop}}" wx:if='{{onLoadStatus}}'>
+        <scroll-view class="goods-container" scroll-y="true" scroll-top="{{scrolltop}}">
             <view data="{{goodsListCurrent}}">
                 <view class="title">
                     {{goodsListCurrent.name}}
