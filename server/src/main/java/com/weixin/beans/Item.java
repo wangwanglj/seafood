@@ -15,11 +15,11 @@ public class Item {
     public Item() {
     }
 
-    public Item(int id, String name, String pic, int pice, int type, int star) {
+    public Item(int id, String name, String pic, int price, int type, int star) {
         this.id = id;
         this.name = name;
         this.pic = pic;
-        this.pice = pice;
+        this.price = price;
         this.type = type;
         this.star = star;
     }
@@ -41,7 +41,7 @@ public class Item {
     /**
      * 商品价格
      */
-    private int pice;
+    private int price;
 
     /**
      * 商品类型
@@ -77,14 +77,6 @@ public class Item {
         this.pic = pic;
     }
 
-    public int getPice() {
-        return pice;
-    }
-
-    public void setPice(int pice) {
-        this.pice = pice;
-    }
-
     public int getType() {
         return type;
     }
@@ -99,5 +91,13 @@ public class Item {
 
     public void setStar(int star) {
         this.star = star;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 }
