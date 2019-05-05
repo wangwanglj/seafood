@@ -10,6 +10,5 @@ $RECYCLE.BIN/
 .TemporaryItems
 .Trashes
 
-dist/
 # Node.js
 node_modules/
