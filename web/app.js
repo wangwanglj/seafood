@@ -5,10 +5,10 @@ App({
     pageSize: 10000, //初始加载时的商品数，设置为10000保证小商户能加载完全部商品
     goodtypes: [],
     goods: [],
-    hotGoods: ['桔', '火龙果', '香蕉', '酸奶', '甘蔗'], //自定义热门搜索商品
     goodsName: [],
     onLoadStatus: true,
     initChooseGoodType: null,
+    initGoodList:[],
 
     globalBGColor: '#00afb4',
     bgRed: 0,
@@ -27,9 +27,6 @@ App({
       success: function(res) {
         if (res.data.code == 0) {
           that.globalData.goodtypes = res.data.data;
-          if (that.globalData.initChooseGoodType === null & that.globalData.goodtypes.length > 0) {
-            that.globalData.initChooseGoodType = that.globalData.goodtypes[0].id;
-          }
           console.log("goodtype:", that.globalData.goodtypes);
 
           //获取所有商品
@@ -49,12 +46,19 @@ App({
                   }
                   goods.push({
                     "type": goodtypes[i].id,
+                    "typename": goodtypes[i].name,
                     "goods": temp
                   })
+                  //初始化物品列表
+                  if (that.globalData.initChooseGoodType === null & that.globalData.goodtypes.length > 0) {
+                    that.globalData.initChooseGoodType = that.globalData.goodtypes[0].id;
+                    that.globalData.initGoodList = goods[0];
+                  }
                 }
                 that.globalData.goods = goods;
 
                 console.log("goods:", that.globalData.goods);
+                console.log("initGoodList:", that.globalData.initGoodList, that.globalData.initChooseGoodType);
               }
             }
           })

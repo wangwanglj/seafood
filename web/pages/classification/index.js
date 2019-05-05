@@ -9,6 +9,8 @@ Page({
     goodtypes: [], //商品类型列表
     goods: [], //商品列表
     chooseGoodType: null, //选择的商品类型
+    chooseGoodList:[],//选择的商品信息
+    shopDelivery: "¥28起送 | 同城免费送 | 由于业务有限仅送县城范围"
   },
 
   /**
@@ -17,6 +19,7 @@ Page({
   onLoad: function(options) {
     var that = this;
     this.setData({
+      chooseGoodList: app.globalData.initGoodList,
       chooseGoodType: app.globalData.initChooseGoodType,
       goodtypes: app.globalData.goodtypes,
       goods: app.globalData.goods,
@@ -25,6 +28,9 @@ Page({
       bgGreen: app.globalData.bgGreen,
       bgBlue: app.globalData.bgBlue
     })
+    if (app.globalData.initChooseGoodType > 0){
+
+    }
   },
 
   /**
@@ -39,7 +45,15 @@ Page({
       that.setData({
         chooseGoodType: id,
       })
+      for (var i = 0; i < that.data.goods.length; i++) {
+        if (id === that.data.goods[i].type) {
+          that.setData({
+            chooseGoodList: that.data.goods[i]
+          })
+        }
+      }
     }
+    console.log("chooseGoodList:", that.data.chooseGoodList);
   },
 
   /**
