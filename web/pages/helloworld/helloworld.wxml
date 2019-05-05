@@ -1,4 +1,0 @@
-<view>
-{{mott}}
-</view>
-<button bindtap='myRand'>随机</button>
